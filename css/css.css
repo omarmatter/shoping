@@ -1,0 +1,311 @@
+/*
+
+slider
+
+*/
+div.jumbotron.carousel-hero {
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+  }
+  
+  div.jumbotron.hero-nature {
+    background-image: url('../imge/img4.jpg');
+  }
+  
+  div.jumbotron.hero-photography {
+    background-image: url('../imge/img5.jpg');
+  }
+  
+  div.jumbotron.hero-technology {
+    background-image: url('../imge/img7.jpg');
+  }
+  
+  h1.hero-title, h2.hero-title, h3.hero-title {
+    text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+    color: #fff;
+  }
+  
+  p.hero-subtitle {
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 10px 15px;
+    color: #fff;
+  }
+  
+  .plat {
+    border-radius: 0px;
+  }
+  
+  .btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0 #048f83!important;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #016090;
+    border-color: #016090;
+  }
+  
+  .btn.btn-primary {
+    background-color: #048f83!important;
+    border-color: #048f83!important;
+  }
+  
+  .btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
+  }
+  
+  * {
+    /*box-sizing: inherit;*/
+  }
+  
+  *:before, *:after {
+    /*box-sizing: inherit;*/
+  }
+  
+  span {
+    font-style: inherit;
+    font-weight: inherit;
+  }
+
+/*
+End slider
+/*
+navbar
+ */
+
+ #brand-logo {
+    font-size: 34px;
+  }
+ .w{
+     width: 92px;
+ }
+  
+  /*
+  End navbar
+
+  gallary
+  */
+  .photo-gallery {
+    margin-top: 30px;
+  }
+  /*
+  End
+  Testemonial
+  */
+  #carousel-t {
+    background-color: #fff;
+  }
+  
+  #carousel-t .testimonial-content {
+    margin-top: 15px;
+  }
+  
+  #carousel-t .carousel-control-next, .carousel-control-prev {
+    width: 13%;
+  }
+  
+  #carousel-t .carousel-control-prev {
+    background: -webkit-linear-gradient(left, rgba(255,0,0,0) 70%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right, rgb(255,255,255) 70%,rgba(255,255,255,0) 100%);
+    opacity: 1;
+  }
+  
+  #carousel-t .carousel-control-next {
+    background: -webkit-linear-gradient(right, rgba(255,0,0,0) 70%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to left, rgb(255,255,255) 70%,rgba(255,255,255,0) 100%);
+    opacity: 1;
+  }
+  
+  #carousel-t .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #140000;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .2;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+  }
+  
+  #carousel-t .carousel-indicators .active {
+    opacity: .5;
+  }
+  
+  #carousel-t .carousel-indicators {
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  #carousel-t .signature {
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Roboto Condensed', Arial, Sans;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  #carousel-t .date {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  #carousel-t p {
+    font-size: 18px;
+    font-family: 'Roboto Condensed', Arial, Sans;
+  }
+  
+  #carousel-t .rating {
+    background-color: #2d80ff;
+    width: 56px;
+    display: block;
+    margin: 15px auto;
+    color: white;
+    border-radius: 25px;
+  }
+  
+  #carousel-t .icon.ion-android-arrow-dropright-circle {
+    font-size: 40px;
+    color: rgba(0,0,0,0.15);
+    transition: color .3s;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #carousel-t .icon.ion-android-arrow-dropright-circle:hover {
+    color: rgba(0,0,0,0.35);
+    transition: color .3s;
+  }
+  
+  #carousel-t .icon.ion-android-arrow-dropleft-circle {
+    font-size: 40px;
+    color: rgba(0,0,0,0.15);
+    height: 100%;
+    width: 100%;
+  }
+  
+  #carousel-t .icon.ion-android-arrow-dropleft-circle:hover {
+    color: rgba(0,0,0,0.35);
+    transition: color .3s;
+  }
+ /*
+ End
+ Footer
+ */
+ #myFooter {
+  background-color: #3c3d41;
+  color: white;
+  padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+  background-color: #333333;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+#myFooter .row {
+  margin-bottom: 60px;
+}
+
+#myFooter .footer-copyright p {
+  margin: 10px;
+  color: #ccc;
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#myFooter h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#myFooter a {
+  color: #d2d1d1;
+  text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#myFooter .social-networks {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+  font-size: 32px;
+  color: #f9f9f9;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+  text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+  color: #0077e2;
+}
+
+#myFooter .google:hover {
+  color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+  color: #00aced;
+}
+
+#myFooter .linkedin:hover {
+  color: #007BB6;
+}
+
+#myFooter .btn {
+  color: white;
+  background-color: #d84b6b;
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  #myFooter {
+    text-align: center;
+  }
+}
+/*
+Footer
+
+  
+
+
+  
+  
